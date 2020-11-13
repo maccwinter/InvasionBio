@@ -14,3 +14,18 @@ TxUSA <- location[location$country=='United States',]
 TxUSA
 
 write.csv(TxUSA, file="Tamarix.csv")
+
+
+
+library(ggplot2)
+library(ggmap)
+
+
+
+
+
+
+
+
+
+
