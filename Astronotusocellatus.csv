@@ -1,0 +1,449 @@
+"","country","year","month","lat","lon","species"
+"1","United States",2020,1,25.85714,-81.033295,"Astronotus ocellatus"
+"2","United States",2020,1,25.756464,-80.766557,"Astronotus ocellatus"
+"3","United States",2020,1,25.857075,-81.03331,"Astronotus ocellatus"
+"4","United States",2020,1,25.857075,-81.03331,"Astronotus ocellatus"
+"5","United States",2020,1,25.888196,-81.262016,"Astronotus ocellatus"
+"6","United States",2020,1,25.633458,-80.722397,"Astronotus ocellatus"
+"7","United States",2020,1,25.755918,-80.766439,"Astronotus ocellatus"
+"8","United States",2020,1,25.941731,-81.469404,"Astronotus ocellatus"
+"9","United States",2020,2,25.700632,-80.760872,"Astronotus ocellatus"
+"10","United States",2020,2,26.063155,-80.463317,"Astronotus ocellatus"
+"11","United States",2020,2,25.526104,-80.818733,"Astronotus ocellatus"
+"12","United States",2020,3,25.75882,-80.766418,"Astronotus ocellatus"
+"13","United States",2020,3,25.887795,-81.2622,"Astronotus ocellatus"
+"14","United States",2020,4,25.6655,-80.409967,"Astronotus ocellatus"
+"15","United States",2020,4,25.66537,-80.411203,"Astronotus ocellatus"
+"16","United States",2020,4,25.761117,-80.910273,"Astronotus ocellatus"
+"17","United States",2020,4,25.999092,-80.259538,"Astronotus ocellatus"
+"22","United States",2020,9,26.25205,-80.167297,"Astronotus ocellatus"
+"25","United States",2019,1,25.752642,-80.766467,"Astronotus ocellatus"
+"26","United States",2019,1,25.382396,-80.605533,"Astronotus ocellatus"
+"27","United States",2019,2,25.382015,-80.608011,"Astronotus ocellatus"
+"28","United States",2019,2,25.382507,-80.605642,"Astronotus ocellatus"
+"29","United States",2019,2,25.382932,-80.60574,"Astronotus ocellatus"
+"30","United States",2019,2,25.382997,-80.606143,"Astronotus ocellatus"
+"31","United States",2019,2,25.38236,-80.606335,"Astronotus ocellatus"
+"32","United States",2019,3,25.75663,-80.76632,"Astronotus ocellatus"
+"33","United States",2019,3,25.747395,-80.95694,"Astronotus ocellatus"
+"34","United States",2019,3,25.286615,-80.89865,"Astronotus ocellatus"
+"35","United States",2019,3,26.573687,-81.823755,"Astronotus ocellatus"
+"36","United States",2019,4,25.778056,-80.843889,"Astronotus ocellatus"
+"37","United States",2019,4,25.728261,-80.766776,"Astronotus ocellatus"
+"38","United States",2019,5,25.753622,-80.766502,"Astronotus ocellatus"
+"40","United States",2019,5,25.756952,-80.765356,"Astronotus ocellatus"
+"41","United States",2019,6,25.725284,-80.762069,"Astronotus ocellatus"
+"42","United States",2019,6,25.71455,-80.765608,"Astronotus ocellatus"
+"44","United States",2019,8,25.947488,-80.443887,"Astronotus ocellatus"
+"45","United States",2019,8,26.574046,-81.823493,"Astronotus ocellatus"
+"47","United States",2019,8,25.622163,-80.341441,"Astronotus ocellatus"
+"NA",NA,NA,NA,NA,NA,NA
+"NA.1",NA,NA,NA,NA,NA,NA
+"53","United States",2019,11,25.6921,-80.31819,"Astronotus ocellatus"
+"54","United States",2019,11,25.77072,-80.31252,"Astronotus ocellatus"
+"55","United States",2019,11,26.1319,-80.36166,"Astronotus ocellatus"
+"56","United States",2019,11,26.22936,-80.29806,"Astronotus ocellatus"
+"57","United States",2019,11,26.57271,-81.824959,"Astronotus ocellatus"
+"58","United States",2019,11,25.76061,-80.561403,"Astronotus ocellatus"
+"59","United States",2019,12,26.147495,-80.630932,"Astronotus ocellatus"
+"60","United States",2019,12,25.756378,-80.766487,"Astronotus ocellatus"
+"61","United States",2019,12,25.857187,-81.033279,"Astronotus ocellatus"
+"62","United States",2018,1,25.382268,-80.605612,"Astronotus ocellatus"
+"64","United States",2018,3,25.760924,-80.530375,"Astronotus ocellatus"
+"65","United States",2018,3,25.382144,-80.605659,"Astronotus ocellatus"
+"66","United States",2018,4,25.396307,-80.615517,"Astronotus ocellatus"
+"67","United States",2018,5,25.717732,-80.296438,"Astronotus ocellatus"
+"68","United States",2018,5,25.753405,-80.766879,"Astronotus ocellatus"
+"69","United States",2018,6,26.225393,-80.333349,"Astronotus ocellatus"
+"70","United States",2018,7,26.331899,-80.785255,"Astronotus ocellatus"
+"NA.2",NA,NA,NA,NA,NA,NA
+"73","United States",2018,10,25.467514,-80.477798,"Astronotus ocellatus"
+"74","United States",2018,11,25.918966,-80.836388,"Astronotus ocellatus"
+"75","United States",2018,11,26.532695,-81.504065,"Astronotus ocellatus"
+"76","United States",2018,11,25.645003,-80.211257,"Astronotus ocellatus"
+"77","United States",2018,11,25.8712,-80.3465,"Astronotus ocellatus"
+"78","United States",2018,11,25.69639,-80.29694,"Astronotus ocellatus"
+"79","United States",2018,11,26.16467,-80.29816,"Astronotus ocellatus"
+"80","United States",2018,11,26.1364,-80.35777,"Astronotus ocellatus"
+"81","United States",2018,12,25.955397,-81.310478,"Astronotus ocellatus"
+"82","United States",2018,12,25.3824,-80.606461,"Astronotus ocellatus"
+"83","United States",2018,12,25.75763,-80.767118,"Astronotus ocellatus"
+"84","United States",2018,12,25.757925,-80.766457,"Astronotus ocellatus"
+"85","United States",2018,12,25.57253,-80.5751,"Astronotus ocellatus"
+"86","United States",2017,1,25.381987,-80.605665,"Astronotus ocellatus"
+"87","United States",2017,1,25.760834,-80.631074,"Astronotus ocellatus"
+"88","United States",2017,2,25.3824,-80.606461,"Astronotus ocellatus"
+"89","United States",2017,3,25.381959,-80.610018,"Astronotus ocellatus"
+"90","United States",2017,3,25.756729,-80.766085,"Astronotus ocellatus"
+"91","United States",2017,3,25.86722,-81.11389,"Astronotus ocellatus"
+"92","United States",2017,3,25.85018,-80.89361,"Astronotus ocellatus"
+"93","United States",2017,3,25.89107,-81.27001,"Astronotus ocellatus"
+"94","United States",2017,3,25.90167,-81.29806,"Astronotus ocellatus"
+"95","United States",2017,3,25.90971,-81.29391,"Astronotus ocellatus"
+"96","United States",2017,3,25.95126,-81.3101,"Astronotus ocellatus"
+"97","United States",2017,3,26.05071,-81.34295,"Astronotus ocellatus"
+"98","United States",2017,3,26.1555,-81.31117,"Astronotus ocellatus"
+"99","United States",2017,3,26.20306,-81.26887,"Astronotus ocellatus"
+"100","United States",2017,3,25.761124,-80.705231,"Astronotus ocellatus"
+"101","United States",2017,3,26.570541,-81.826563,"Astronotus ocellatus"
+"102","United States",2017,4,25.913089,-80.584103,"Astronotus ocellatus"
+"103","United States",2017,5,26.572708,-81.824978,"Astronotus ocellatus"
+"104","United States",2017,5,26.219907,-80.807874,"Astronotus ocellatus"
+"105","United States",2017,5,29.17288,-82.096313,"Astronotus ocellatus"
+"112","United States",2017,9,39.078549,-84.238603,"Astronotus ocellatus"
+"116","United States",2017,11,25.47497,-80.516466,"Astronotus ocellatus"
+"117","United States",2017,11,25.7027,-80.36709,"Astronotus ocellatus"
+"118","United States",2017,11,26.0325,-80.495,"Astronotus ocellatus"
+"119","United States",2017,11,25.47832,-80.52099,"Astronotus ocellatus"
+"121","United States",2016,4,25.856747,-81.031471,"Astronotus ocellatus"
+"124","United States",2016,4,25.5518,-80.3316,"Astronotus ocellatus"
+"125","United States",2016,4,26.2137,-80.4152,"Astronotus ocellatus"
+"127","United States",2016,5,25.68308,-80.45435,"Astronotus ocellatus"
+"128","United States",2016,5,25.382921,-80.607376,"Astronotus ocellatus"
+"129","United States",2016,5,25.867031,-81.149713,"Astronotus ocellatus"
+"133","United States",2016,6,26.048582,-81.075466,"Astronotus ocellatus"
+"134","United States",2016,7,24.705622,-81.380466,"Astronotus ocellatus"
+"139","United States",2016,11,25.46508,-80.57354,"Astronotus ocellatus"
+"140","United States",2016,11,25.46508,-80.57354,"Astronotus ocellatus"
+"141","United States",2016,12,24.705844,-81.380759,"Astronotus ocellatus"
+"142","United States",2016,12,25.761566,-80.673831,"Astronotus ocellatus"
+"144","United States",2015,1,25.382872,-80.605639,"Astronotus ocellatus"
+"NA.3",NA,NA,NA,NA,NA,NA
+"171","United States",2015,3,25.42148,-80.58992,"Astronotus ocellatus"
+"172","United States",2015,4,25.38246,-80.609613,"Astronotus ocellatus"
+"173","United States",2015,5,26.19997,-80.21286,"Astronotus ocellatus"
+"NA.4",NA,NA,NA,NA,NA,NA
+"NA.5",NA,NA,NA,NA,NA,NA
+"176","United States",2015,7,21.302728,-157.828214,"Astronotus ocellatus"
+"181","United States",2015,11,26.19959,-80.21569,"Astronotus ocellatus"
+"184","United States",2014,1,25.28958,-80.44427,"Astronotus ocellatus"
+"185","United States",2014,1,25.86386,-81.10131,"Astronotus ocellatus"
+"186","United States",2014,1,25.88067,-81.245762,"Astronotus ocellatus"
+"187","United States",2014,2,NA,NA,"Astronotus ocellatus"
+"NA.6",NA,NA,NA,NA,NA,NA
+"NA.7",NA,NA,NA,NA,NA,NA
+"198","United States",2014,3,25.38228,-80.60791,"Astronotus ocellatus"
+"199","United States",2014,4,25.382847,-80.605908,"Astronotus ocellatus"
+"201","United States",2014,6,NA,NA,"Astronotus ocellatus"
+"204","United States",2014,8,40.7706,-73.807862,"Astronotus ocellatus"
+"205","United States",2014,8,29.593987,-95.083621,"Astronotus ocellatus"
+"206","United States",2014,9,32.705967,-117.105159,"Astronotus ocellatus"
+"209","United States",2014,11,25.70975,-80.38154,"Astronotus ocellatus"
+"210","United States",2014,12,25.382684,-80.607177,"Astronotus ocellatus"
+"211","United States",2014,NA,NA,NA,"Astronotus ocellatus"
+"213","United States",2013,1,24.705878,-81.38077,"Astronotus ocellatus"
+"214","United States",2013,3,26.88587,-80.71655,"Astronotus ocellatus"
+"217","United States",2013,5,25.462407,-80.581046,"Astronotus ocellatus"
+"NA.8",NA,NA,NA,NA,NA,NA
+"NA.9",NA,NA,NA,NA,NA,NA
+"221","United States",2013,9,26.42453,-80.10004,"Astronotus ocellatus"
+"223","United States",2013,12,25.36008,-80.56591,"Astronotus ocellatus"
+"NA.10",NA,NA,NA,NA,NA,NA
+"NA.11",NA,NA,NA,NA,NA,NA
+"NA.12",NA,NA,NA,NA,NA,NA
+"230","United States",2012,3,25.286615,-80.89865,"Astronotus ocellatus"
+"NA.13",NA,NA,NA,NA,NA,NA
+"NA.14",NA,NA,NA,NA,NA,NA
+"237","United States",2012,11,25.845552,-81.386762,"Astronotus ocellatus"
+"NA.15",NA,NA,NA,NA,NA,NA
+"NA.16",NA,NA,NA,NA,NA,NA
+"NA.17",NA,NA,NA,NA,NA,NA
+"249","United States",2011,11,26.129641,-80.354579,"Astronotus ocellatus"
+"NA.18",NA,NA,NA,NA,NA,NA
+"NA.19",NA,NA,NA,NA,NA,NA
+"NA.20",NA,NA,NA,NA,NA,NA
+"NA.21",NA,NA,NA,NA,NA,NA
+"NA.22",NA,NA,NA,NA,NA,NA
+"NA.23",NA,NA,NA,NA,NA,NA
+"NA.24",NA,NA,NA,NA,NA,NA
+"273","United States",2008,1,25.8766,-81.22054,"Astronotus ocellatus"
+"275","United States",2008,2,25.382417,-80.606518,"Astronotus ocellatus"
+"282","United States",2007,3,25.92527,-80.57562,"Astronotus ocellatus"
+"NA.25",NA,NA,NA,NA,NA,NA
+"NA.26",NA,NA,NA,NA,NA,NA
+"NA.27",NA,NA,NA,NA,NA,NA
+"NA.28",NA,NA,NA,NA,NA,NA
+"NA.29",NA,NA,NA,NA,NA,NA
+"NA.30",NA,NA,NA,NA,NA,NA
+"NA.31",NA,NA,NA,NA,NA,NA
+"NA.32",NA,NA,NA,NA,NA,NA
+"292","United States",2007,11,27.34643,-81.28924,"Astronotus ocellatus"
+"293","United States",2007,12,26.664233,-80.6236,"Astronotus ocellatus"
+"294","United States",2007,12,26.9374,-80.17616,"Astronotus ocellatus"
+"295","United States",2006,12,25.205855,-80.871209,"Astronotus ocellatus"
+"301","United States",2005,12,21.450512,-157.969666,"Astronotus ocellatus"
+"302","United States",2005,12,25.42149,-80.59004,"Astronotus ocellatus"
+"303","United States",2005,12,25.8583,-81.4819,"Astronotus ocellatus"
+"304","United States",2005,12,26.172222,-81.377222,"Astronotus ocellatus"
+"313","United States",2003,7,26.027141,-81.255944,"Astronotus ocellatus"
+"318","United States",2003,12,25.61062,-80.30888,"Astronotus ocellatus"
+"319","United States",2003,12,25.60968,-80.3173,"Astronotus ocellatus"
+"320","United States",2003,12,26.582233,-80.077629,"Astronotus ocellatus"
+"321","United States",2002,1,25.96147,-80.235285,"Astronotus ocellatus"
+"324","United States",2002,9,36.42461,-118.916395,"Astronotus ocellatus"
+"329","United States",2002,10,32.285,-90.0283,"Astronotus ocellatus"
+"331","United States",2002,11,26.0603,-81.2639,"Astronotus ocellatus"
+"332","United States",2002,11,26.027141,-81.255944,"Astronotus ocellatus"
+"339","United States",2001,1,25.7623,-80.69869,"Astronotus ocellatus"
+"340","United States",2001,1,25.960872,-80.235442,"Astronotus ocellatus"
+"341","United States",2001,5,25.687802,-80.360744,"Astronotus ocellatus"
+"342","United States",2001,5,25.6092,-80.31972,"Astronotus ocellatus"
+"343","United States",2001,5,25.69148,-80.33377,"Astronotus ocellatus"
+"347","United States",2000,2,25.382962,-80.606046,"Astronotus ocellatus"
+"348","United States",2000,4,NA,NA,"Astronotus ocellatus"
+"349","United States",2000,4,25.373477,-80.573777,"Astronotus ocellatus"
+"352","United States",2000,10,32.4183,-90.02294,"Astronotus ocellatus"
+"353","United States",2000,10,25.960741,-80.237218,"Astronotus ocellatus"
+"355","United States",1999,1,25.8667,-80.34016,"Astronotus ocellatus"
+"356","United States",1999,1,25.850021,-80.32014,"Astronotus ocellatus"
+"357","United States",1999,1,NA,NA,"Astronotus ocellatus"
+"358","United States",1999,1,25.78505,-80.22182,"Astronotus ocellatus"
+"359","United States",1999,1,25.868298,-80.342458,"Astronotus ocellatus"
+"NA.33",NA,NA,NA,NA,NA,NA
+"NA.34",NA,NA,NA,NA,NA,NA
+"367","United States",1999,10,NA,NA,"Astronotus ocellatus"
+"369","United States",1999,11,NA,NA,"Astronotus ocellatus"
+"370","United States",1999,11,NA,NA,"Astronotus ocellatus"
+"372","United States",1999,12,25.47206,-80.6045,"Astronotus ocellatus"
+"373","United States",1999,12,25.937873,-80.924789,"Astronotus ocellatus"
+"374","United States",1999,12,25.937873,-80.924789,"Astronotus ocellatus"
+"375","United States",1999,12,26.123333,-81.399167,"Astronotus ocellatus"
+"376","United States",1998,1,NA,NA,"Astronotus ocellatus"
+"377","United States",1998,5,25.959,-80.22851,"Astronotus ocellatus"
+"378","United States",1998,5,25.851641,-80.981041,"Astronotus ocellatus"
+"380","United States",1998,11,25.823861,-80.285031,"Astronotus ocellatus"
+"381","United States",1998,12,25.960688,-80.230848,"Astronotus ocellatus"
+"382","United States",1998,12,NA,NA,"Astronotus ocellatus"
+"385","United States",1997,6,NA,NA,"Astronotus ocellatus"
+"392","United States",1997,9,25.696667,-80.356389,"Astronotus ocellatus"
+"NA.35",NA,NA,NA,NA,NA,NA
+"396","United States",1997,12,NA,NA,"Astronotus ocellatus"
+"397","United States",1997,12,NA,NA,"Astronotus ocellatus"
+"398","United States",1996,4,25.76128,-80.48087,"Astronotus ocellatus"
+"399","United States",1996,5,25.8899999992582,-80.58,"Astronotus ocellatus"
+"403","United States",1996,NA,25.90833,-80.30889,"Astronotus ocellatus"
+"404","United States",1995,4,25.8899999992582,-80.58,"Astronotus ocellatus"
+"405","United States",1995,5,25.8899999992582,-80.58,"Astronotus ocellatus"
+"406","United States",1995,5,25.8899999992582,-80.58,"Astronotus ocellatus"
+"407","United States",1995,8,26.330556,-80.773889,"Astronotus ocellatus"
+"410","United States",1995,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"413","United States",1995,12,25.860167,-80.624806,"Astronotus ocellatus"
+"414","United States",1994,3,26.937835,-80.812282,"Astronotus ocellatus"
+"415","United States",1994,4,25.8899999992582,-80.58,"Astronotus ocellatus"
+"416","United States",1994,5,25.8899999992582,-80.58,"Astronotus ocellatus"
+"417","United States",1994,5,25.8899999992582,-80.58,"Astronotus ocellatus"
+"420","United States",1994,11,25.8899999992582,-80.58,"Astronotus ocellatus"
+"421","United States",1994,11,25.8899999992582,-80.58,"Astronotus ocellatus"
+"422","United States",1994,11,26.4199999992475,-81.5,"Astronotus ocellatus"
+"423","United States",1994,11,26.42,-81.5,"Astronotus ocellatus"
+"424","United States",1994,12,27.826384,-81.283088,"Astronotus ocellatus"
+"427","United States",1993,2,NA,NA,"Astronotus ocellatus"
+"428","United States",1993,2,26.3699999992485,-80.79,"Astronotus ocellatus"
+"429","United States",1993,2,25.851036,-80.631065,"Astronotus ocellatus"
+"430","United States",1993,2,26.37,-80.79,"Astronotus ocellatus"
+"432","United States",1993,3,26.2899999992501,-80.75,"Astronotus ocellatus"
+"433","United States",1993,3,26.29,-80.75,"Astronotus ocellatus"
+"435","United States",1993,4,26.2099999992517,-80.35,"Astronotus ocellatus"
+"436","United States",1993,4,NA,NA,"Astronotus ocellatus"
+"437","United States",1993,5,25.75,-80.233333,"Astronotus ocellatus"
+"440","United States",1992,1,26.065395,-80.233027,"Astronotus ocellatus"
+"441","United States",1992,2,25.8899999992582,-80.58,"Astronotus ocellatus"
+"442","United States",1992,2,25.8899999992582,-80.58,"Astronotus ocellatus"
+"443","United States",1992,2,25.851036,-80.631065,"Astronotus ocellatus"
+"444","United States",1992,2,25.89,-80.58,"Astronotus ocellatus"
+"445","United States",1992,2,25.89,-80.58,"Astronotus ocellatus"
+"446","United States",1992,2,26.062268,-80.569173,"Astronotus ocellatus"
+"448","United States",1992,4,25.8899999992582,-80.58,"Astronotus ocellatus"
+"449","United States",1992,4,NA,NA,"Astronotus ocellatus"
+"450","United States",1992,4,26.1799999992523,-80.66,"Astronotus ocellatus"
+"451","United States",1992,4,26.18,-80.66,"Astronotus ocellatus"
+"452","United States",1992,5,25.8899999992582,-80.58,"Astronotus ocellatus"
+"453","United States",1992,5,25.8899999992582,-80.58,"Astronotus ocellatus"
+"454","United States",1992,5,25.760687,-80.946795,"Astronotus ocellatus"
+"455","United States",1992,5,25.761111,-80.416667,"Astronotus ocellatus"
+"456","United States",1992,7,25.547288,-80.347584,"Astronotus ocellatus"
+"457","United States",1992,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"458","United States",1992,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"459","United States",1992,10,NA,NA,"Astronotus ocellatus"
+"464","United States",1991,2,25.851036,-80.631065,"Astronotus ocellatus"
+"465","United States",1991,2,25.381111,-80.605556,"Astronotus ocellatus"
+"471","United States",1991,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"472","United States",1991,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"473","United States",1991,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"477","United States",1990,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"478","United States",1990,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"479","United States",1990,10,25.8899999992582,-80.58,"Astronotus ocellatus"
+"482","United States",1988,5,25.856743,-81.032118,"Astronotus ocellatus"
+"507","United States",1987,12,25.389948,-80.587694,"Astronotus ocellatus"
+"508","United States",1987,12,25.762793,-80.675011,"Astronotus ocellatus"
+"509","United States",1987,12,25.937873,-80.924789,"Astronotus ocellatus"
+"510","United States",1986,2,26.17706,-80.44824,"Astronotus ocellatus"
+"512","United States",1986,5,25.332885,-80.626046,"Astronotus ocellatus"
+"517","United States",1986,12,25.382339,-80.607591,"Astronotus ocellatus"
+"518","United States",1986,NA,29.6425,-82.359167,"Astronotus ocellatus"
+"541","United States",1984,12,21.450512,-157.969666,"Astronotus ocellatus"
+"542","United States",1984,12,22.044913,-159.532471,"Astronotus ocellatus"
+"NA.36",NA,NA,NA,NA,NA,NA
+"550","United States",1983,4,NA,NA,"Astronotus ocellatus"
+"555","United States",1983,10,29.64611,-82.60667,"Astronotus ocellatus"
+"560","United States",1982,9,26.68293,-80.299409,"Astronotus ocellatus"
+"NA.37",NA,NA,NA,NA,NA,NA
+"NA.38",NA,NA,NA,NA,NA,NA
+"NA.39",NA,NA,NA,NA,NA,NA
+"574","United States",1980,5,26.346725,-80.188436,"Astronotus ocellatus"
+"580","United States",1980,7,25.761111,-80.673889,"Astronotus ocellatus"
+"581","United States",1980,8,26.68293,-80.299409,"Astronotus ocellatus"
+"582","United States",1980,9,25.956998,-80.19956,"Astronotus ocellatus"
+"583","United States",1980,9,25.9926,-80.311798,"Astronotus ocellatus"
+"586","United States",1980,12,25.57996,-80.40361,"Astronotus ocellatus"
+"587","United States",1980,12,25.759546,-80.66645,"Astronotus ocellatus"
+"589","United States",1979,6,26.678396,-80.161575,"Astronotus ocellatus"
+"NA.40",NA,NA,NA,NA,NA,NA
+"NA.41",NA,NA,NA,NA,NA,NA
+"596","United States",1979,12,26.3724,-80.14076,"Astronotus ocellatus"
+"612","United States",1978,6,25.5443,-80.33145,"Astronotus ocellatus"
+"613","United States",1978,6,NA,NA,"Astronotus ocellatus"
+"615","United States",1978,7,25.770183,-80.312653,"Astronotus ocellatus"
+"616","United States",1978,7,25.91611,-80.20722,"Astronotus ocellatus"
+"617","United States",1978,8,42.032656,-72.75773,"Astronotus ocellatus"
+"NA.42",NA,NA,NA,NA,NA,NA
+"NA.43",NA,NA,NA,NA,NA,NA
+"NA.44",NA,NA,NA,NA,NA,NA
+"634","United States",1974,12,25.42539,-80.328387,"Astronotus ocellatus"
+"635","United States",1974,12,25.756427,-80.302264,"Astronotus ocellatus"
+"636","United States",1974,12,25.803432,-80.385331,"Astronotus ocellatus"
+"637","United States",1974,12,25.914821,-80.324993,"Astronotus ocellatus"
+"638","United States",1974,12,26.134788,-80.206098,"Astronotus ocellatus"
+"639","United States",1974,NA,32.4183,-90.02294,"Astronotus ocellatus"
+"641","United States",1973,3,NA,NA,"Astronotus ocellatus"
+"642","United States",1972,8,25.67,-80.283889,"Astronotus ocellatus"
+"644","United States",1972,12,25.704553,-80.248883,"Astronotus ocellatus"
+"645","United States",1972,12,25.759546,-80.66645,"Astronotus ocellatus"
+"646","United States",1972,12,25.95676,-80.327829,"Astronotus ocellatus"
+"647","United States",1972,12,25.956193,-80.450821,"Astronotus ocellatus"
+"649","United States",1971,6,25.6916,-80.347252,"Astronotus ocellatus"
+"650","United States",1971,9,25.797178,-80.321172,"Astronotus ocellatus"
+"651","United States",1971,12,25.862896,-80.224768,"Astronotus ocellatus"
+"666","United States",1965,12,25.535433,-80.404687,"Astronotus ocellatus"
+"672","United States",1963,10,25.566066,-80.362324,"Astronotus ocellatus"
+"NA.45",NA,NA,NA,NA,NA,NA
+"677","United States",1960,1,NA,NA,"Astronotus ocellatus"
+"680","United States",1960,12,28.65028,-82.48828,"Astronotus ocellatus"
+"690","United States",1952,12,21.450512,-157.969666,"Astronotus ocellatus"
+"691","United States",1952,12,21.43333,-157.96667,"Astronotus ocellatus"
+"692","United States",1952,12,22.044913,-159.532471,"Astronotus ocellatus"
+"NA.46",NA,NA,NA,NA,NA,NA
+"NA.47",NA,NA,NA,NA,NA,NA
+"NA.48",NA,NA,NA,NA,NA,NA
+"NA.49",NA,NA,NA,NA,NA,NA
+"NA.50",NA,NA,NA,NA,NA,NA
+"NA.51",NA,NA,NA,NA,NA,NA
+"NA.52",NA,NA,NA,NA,NA,NA
+"NA.53",NA,NA,NA,NA,NA,NA
+"NA.54",NA,NA,NA,NA,NA,NA
+"NA.55",NA,NA,NA,NA,NA,NA
+"NA.56",NA,NA,NA,NA,NA,NA
+"NA.57",NA,NA,NA,NA,NA,NA
+"NA.58",NA,NA,NA,NA,NA,NA
+"NA.59",NA,NA,NA,NA,NA,NA
+"NA.60",NA,NA,NA,NA,NA,NA
+"NA.61",NA,NA,NA,NA,NA,NA
+"NA.62",NA,NA,NA,NA,NA,NA
+"NA.63",NA,NA,NA,NA,NA,NA
+"NA.64",NA,NA,NA,NA,NA,NA
+"NA.65",NA,NA,NA,NA,NA,NA
+"NA.66",NA,NA,NA,NA,NA,NA
+"NA.67",NA,NA,NA,NA,NA,NA
+"NA.68",NA,NA,NA,NA,NA,NA
+"NA.69",NA,NA,NA,NA,NA,NA
+"NA.70",NA,NA,NA,NA,NA,NA
+"NA.71",NA,NA,NA,NA,NA,NA
+"NA.72",NA,NA,NA,NA,NA,NA
+"NA.73",NA,NA,NA,NA,NA,NA
+"NA.74",NA,NA,NA,NA,NA,NA
+"NA.75",NA,NA,NA,NA,NA,NA
+"NA.76",NA,NA,NA,NA,NA,NA
+"NA.77",NA,NA,NA,NA,NA,NA
+"NA.78",NA,NA,NA,NA,NA,NA
+"NA.79",NA,NA,NA,NA,NA,NA
+"NA.80",NA,NA,NA,NA,NA,NA
+"NA.81",NA,NA,NA,NA,NA,NA
+"NA.82",NA,NA,NA,NA,NA,NA
+"NA.83",NA,NA,NA,NA,NA,NA
+"NA.84",NA,NA,NA,NA,NA,NA
+"NA.85",NA,NA,NA,NA,NA,NA
+"NA.86",NA,NA,NA,NA,NA,NA
+"NA.87",NA,NA,NA,NA,NA,NA
+"NA.88",NA,NA,NA,NA,NA,NA
+"NA.89",NA,NA,NA,NA,NA,NA
+"NA.90",NA,NA,NA,NA,NA,NA
+"NA.91",NA,NA,NA,NA,NA,NA
+"NA.92",NA,NA,NA,NA,NA,NA
+"NA.93",NA,NA,NA,NA,NA,NA
+"NA.94",NA,NA,NA,NA,NA,NA
+"NA.95",NA,NA,NA,NA,NA,NA
+"NA.96",NA,NA,NA,NA,NA,NA
+"NA.97",NA,NA,NA,NA,NA,NA
+"NA.98",NA,NA,NA,NA,NA,NA
+"NA.99",NA,NA,NA,NA,NA,NA
+"NA.100",NA,NA,NA,NA,NA,NA
+"NA.101",NA,NA,NA,NA,NA,NA
+"NA.102",NA,NA,NA,NA,NA,NA
+"NA.103",NA,NA,NA,NA,NA,NA
+"NA.104",NA,NA,NA,NA,NA,NA
+"NA.105",NA,NA,NA,NA,NA,NA
+"NA.106",NA,NA,NA,NA,NA,NA
+"NA.107",NA,NA,NA,NA,NA,NA
+"NA.108",NA,NA,NA,NA,NA,NA
+"NA.109",NA,NA,NA,NA,NA,NA
+"NA.110",NA,NA,NA,NA,NA,NA
+"NA.111",NA,NA,NA,NA,NA,NA
+"NA.112",NA,NA,NA,NA,NA,NA
+"NA.113",NA,NA,NA,NA,NA,NA
+"NA.114",NA,NA,NA,NA,NA,NA
+"NA.115",NA,NA,NA,NA,NA,NA
+"NA.116",NA,NA,NA,NA,NA,NA
+"NA.117",NA,NA,NA,NA,NA,NA
+"931","United States",NA,NA,NA,NA,"Astronotus ocellatus"
+"NA.118",NA,NA,NA,NA,NA,NA
+"NA.119",NA,NA,NA,NA,NA,NA
+"NA.120",NA,NA,NA,NA,NA,NA
+"NA.121",NA,NA,NA,NA,NA,NA
+"NA.122",NA,NA,NA,NA,NA,NA
+"NA.123",NA,NA,NA,NA,NA,NA
+"NA.124",NA,NA,NA,NA,NA,NA
+"NA.125",NA,NA,NA,NA,NA,NA
+"NA.126",NA,NA,NA,NA,NA,NA
+"NA.127",NA,NA,NA,NA,NA,NA
+"NA.128",NA,NA,NA,NA,NA,NA
+"NA.129",NA,NA,NA,NA,NA,NA
+"NA.130",NA,NA,NA,NA,NA,NA
+"NA.131",NA,NA,NA,NA,NA,NA
+"NA.132",NA,NA,NA,NA,NA,NA
+"NA.133",NA,NA,NA,NA,NA,NA
+"NA.134",NA,NA,NA,NA,NA,NA
+"NA.135",NA,NA,NA,NA,NA,NA
+"NA.136",NA,NA,NA,NA,NA,NA
+"NA.137",NA,NA,NA,NA,NA,NA
+"NA.138",NA,NA,NA,NA,NA,NA
+"NA.139",NA,NA,NA,NA,NA,NA
+"NA.140",NA,NA,NA,NA,NA,NA
+"NA.141",NA,NA,NA,NA,NA,NA
+"NA.142",NA,NA,NA,NA,NA,NA
+"NA.143",NA,NA,NA,NA,NA,NA
+"NA.144",NA,NA,NA,NA,NA,NA
+"NA.145",NA,NA,NA,NA,NA,NA
+"NA.146",NA,NA,NA,NA,NA,NA
+"NA.147",NA,NA,NA,NA,NA,NA
+"1066","United States",NA,NA,26.352326,-80.108394,"Astronotus ocellatus"
+"NA.148",NA,NA,NA,NA,NA,NA
+"NA.149",NA,NA,NA,NA,NA,NA
+"NA.150",NA,NA,NA,NA,NA,NA
+"NA.151",NA,NA,NA,NA,NA,NA
+"NA.152",NA,NA,NA,NA,NA,NA
+"NA.153",NA,NA,NA,NA,NA,NA
+"NA.154",NA,NA,NA,NA,NA,NA
+"NA.155",NA,NA,NA,NA,NA,NA
+"NA.156",NA,NA,NA,NA,NA,NA
+"NA.157",NA,NA,NA,NA,NA,NA
+"NA.158",NA,NA,NA,NA,NA,NA
