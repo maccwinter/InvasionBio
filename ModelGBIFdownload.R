@@ -1,4 +1,4 @@
-#This is the MAYBE model of how to best download data from gbif!! 
+#This is the model of how to best download data from gbif!! 
 
 #Rubus 
 
@@ -7,11 +7,11 @@ library("dismo")
 library("sp")
 
 
-Rub <- gbif("Rubus",species ='armeniacus')
+Ra. <- gbif("Rubus",species ='armeniacus')
 
-head(Ra)
+head(Ra.)
 
-Ra.s<-subset(Ra,select=c("country",'year', 'month', "lat","lon",'species'))
+Ra.s<-subset(Ra.,select=c("country",'year', 'month', "lat","lon",'species'))
 
 Rubusarmeniacus <-Ra.s[Ra.s$country=='United States',]
 
