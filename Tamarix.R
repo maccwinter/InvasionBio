@@ -17,8 +17,17 @@ write.csv(TxUSA, file="Tamarix.csv")
 
 
 
-library(ggplot2)
+read.csv("Tamarix.csv")-> Txdata;
+attach(Txdata);
+str(Txdata)
+require(raster)
+require(rgdal)
 library(ggmap)
+
+Txdata. <- na.omit(Txdata)
+
+locations<- SpatialPoints(Txdata.[,6:5], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+
 
 
 
