@@ -25,16 +25,17 @@ require(rgdal)
 head(radata)
 
 
-raloc <- subset(radata,select=c('lon','lat'))
+raloc <- subset(radata,select=c('year','lon','lat'))
 head(raloc)
 
 raloc. <- na.omit(raloc)
 
-head(raloc.)
 
-RAlocations<- SpatialPoints(raloc., proj4string=CRS("+proj=longlat +ellps=WGS84"))
 
-head(locations)
+RAloc <-subset(raloc., select=c('lon','lat'))
+
+RAlocations<- SpatialPoints(RAloc, proj4string=CRS("+proj=longlat +ellps=WGS84"))
+
 
 install.packages("rworldmap")
 library(rworldmap)
@@ -63,10 +64,13 @@ RAinitial<-SpatialPoints(ra.i, proj4string=CRS("+proj=longlat +ellps=WGS84"))
 dist<-distHaversine(RAlocations, RAinitial)
 head(dist)
 
-
 RAinvasive<-cbind(raloc.,dist)
 
 head(RAinvasive)
+#yay finally time to plot
+??plot
+plot(RAinvasive$year, (RAinvasive$dist/1000), pch=16,main ='Rubus amerniacus invasion from origin', xlab="Year", ylab="Distance from Introduced population (km)")
 
+#Yay I made a beautiful plot! 
 
 
