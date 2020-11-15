@@ -67,10 +67,43 @@ head(dist)
 RAinvasive<-cbind(raloc.,dist)
 
 head(RAinvasive)
-#yay finally time to plot
+#yay finally time to plot spread of invader
 ??plot
-plot(RAinvasive$year, (RAinvasive$dist/1000), pch=16,main ='Rubus amerniacus invasion from origin', xlab="Year", ylab="Distance from Introduced population (km)")
+Rubus_amerniacus_invasion <-plot(RAinvasive$year, (RAinvasive$dist/1000), pch=16,main ='Rubus amerniacus invasion from origin', xlab="Year", ylab="Distance from Introduced population (km)")
+
+#Mac you need to save this plot.. I think. Im gonna take a break
 
 #Yay I made a beautiful plot! 
+
+library(dplyr)
+#get maximum distance from starting point
+max_values2<- RAinvasive %>% group_by(year) %>% slice(which.max(dist))
+#must make into a dataframe to use in dpylr again
+maxvalues2<- as.data.frame(max_values2)
+
+#Get the culmulative maximum values
+culmmax<-mutate(maxvalues2,culmaxdist= cummax(dist))
+
+#Make into a dataframe again
+
+culmmax2<-as.data.frame(culmmax)
+#use mutate to get the slope at each point
+diffs<-mutate(culmmax2, D_delta = (((culmaxdist/1000) - lag(culmaxdist/1000))/(year-lag(year))))
+
+diffs$D_delta
+
+diffs$dist/1000
+plot(diffs$year, diffs$D_delta, pch=16, xlab="Year", ylab="Velocity of Invasion (km/year)")
+
+#add a loess regression
+loessMod60 <- loess((culmmax$culmaxdist/1000) ~ culmmax$year, data=culmmax, span=0.6) 
+smoothed60 <- predict(loessMod60) 
+lines(culmmax$year,smoothed60, col="blue", lwd=2)
+
+
+
+
+
+
 
 
