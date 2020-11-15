@@ -148,5 +148,16 @@ install.packages("adehabitatHR")
 library(adehabitatHR)
 
 RA_1920_poly<-mcp(RA_1920.sp, percent=100, unin = "km", unout = "km2")
+RA_1930_poly<-mcp(RA_1930.sp, percent=100, unin = "km", unout = "km2")
+RA_1940_poly<-mcp(RA_1940.sp, percent=100, unin = "km", unout = "km2")
+RA_1950_poly<-mcp(RA_1950.sp, percent=100, unin = "km", unout = "km2")
+RA_1960_poly<-mcp(RA_1960.sp, percent=100, unin = "km", unout = "km2")
+RA_1970_poly<-mcp(RA_1970.sp, percent=100, unin = "km", unout = "km2")
+RA_1980_poly<-mcp(RA_1980.sp, percent=100, unin = "km", unout = "km2")
+RA_1990_poly<-mcp(RA_1990.sp, percent=100, unin = "km", unout = "km2")
+RA_2000_poly<-mcp(RA_2000.sp, percent=100, unin = "km", unout = "km2")
+RA_2010_poly<-mcp(RA_2010.sp, percent=100, unin = "km", unout = "km2")
+RA_2020_poly<-mcp(RA_2020.sp, percent=100, unin = "km", unout = "km2")
+
 
 
