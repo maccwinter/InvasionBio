@@ -1,9 +1,9 @@
 #Ra try 2
 
 
-library('raster')
-library("dismo")
-library("sp")
+library(raster)
+library(dismo)
+library(sp)
 library(ggmap)
 
 
@@ -99,6 +99,24 @@ plot(diffs$year, diffs$D_delta, pch=16, xlab="Year", ylab="Velocity of Invasion 
 loessMod60 <- loess((culmmax$culmaxdist/1000) ~ culmmax$year, data=culmmax, span=0.6) 
 smoothed60 <- predict(loessMod60) 
 lines(culmmax$year,smoothed60, col="blue", lwd=2)
+
+##Code for AVG Velocity, Max Velocity, Time to 
+
+summary(diffs$year, diffs$D_delta)
+
+#to get mean & max velocity
+summary(diffs$D_delta)
+
+summary(diffs$dist/1000)
+
+summary(culmmax$culmaxdist/1000)
+
+#To find years to max velocity, enter 'diffs' find year that matches up with the max velocty 
+diffs
+
+RA.yearstomaxV <- 1983 -1920
+RA.yearstomaxV
+#years to max velocity = 63
 
 
 
