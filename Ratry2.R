@@ -118,10 +118,35 @@ RA.yearstomaxV <- 1983 -1920
 RA.yearstomaxV
 #years to max velocity = 63
 
+#Now calculating polygons and what not 
 
+RA_1920 <-raloc.[raloc.$year <= 1920,]
+RA_1930 <-raloc.[raloc.$year <= 1930,]
+RA_1940 <-raloc.[raloc.$year <= 1940,]
+RA_1950 <-raloc.[raloc.$year <= 1950,]
+RA_1960 <-raloc.[raloc.$year <= 1960,]
+RA_1970 <-raloc.[raloc.$year <= 1970,]
+RA_1980 <-raloc.[raloc.$year <= 1980,]
+RA_1990 <-raloc.[raloc.$year <= 1990,]
+RA_2000 <-raloc.[raloc.$year <= 2000,]
+RA_2010 <-raloc.[raloc.$year <= 2010,]
+RA_2020 <-raloc.[raloc.$year <= 2020,]
 
+RA_1920.sp<-SpatialPoints(RA_1920[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_1930.sp<-SpatialPoints(RA_1930[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_1940.sp<-SpatialPoints(RA_1940[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_1950.sp<-SpatialPoints(RA_1950[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_1960.sp<-SpatialPoints(RA_1960[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_1970.sp<-SpatialPoints(RA_1970[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_1980.sp<-SpatialPoints(RA_1980[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_1990.sp<-SpatialPoints(RA_1990[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_2000.sp<-SpatialPoints(RA_2000[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_2010.sp<-SpatialPoints(RA_2010[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
+RA_2020.sp<-SpatialPoints(RA_2020[,2:3], proj4string=CRS("+proj=longlat +ellps=WGS84"))
 
+install.packages("adehabitatHR")
+library(adehabitatHR)
 
-
+RA_1920_poly<-mcp(RA_1920.sp, percent=100, unin = "km", unout = "km2")
 
 
