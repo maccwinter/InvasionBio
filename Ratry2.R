@@ -147,8 +147,8 @@ RA_2020.sp<-SpatialPoints(RA_2020[,2:3], proj4string=CRS("+proj=longlat +ellps=W
 install.packages("adehabitatHR")
 library(adehabitatHR)
 
-RA_1920_poly<-mcp(RA_1920.sp, percent=100, unin = "km", unout = "km2")
-RA_1930_poly<-mcp(RA_1930.sp, percent=100, unin = "km", unout = "km2")
+#RA_1920_poly<-mcp(RA_1920.sp, percent=100, unin = "km", unout = "km2") - not enough points 
+#RA_1930_poly<-mcp(RA_1930.sp, percent=100, unin = "km", unout = "km2") - not enough points 
 RA_1940_poly<-mcp(RA_1940.sp, percent=100, unin = "km", unout = "km2")
 RA_1950_poly<-mcp(RA_1950.sp, percent=100, unin = "km", unout = "km2")
 RA_1960_poly<-mcp(RA_1960.sp, percent=100, unin = "km", unout = "km2")
@@ -158,6 +158,27 @@ RA_1990_poly<-mcp(RA_1990.sp, percent=100, unin = "km", unout = "km2")
 RA_2000_poly<-mcp(RA_2000.sp, percent=100, unin = "km", unout = "km2")
 RA_2010_poly<-mcp(RA_2010.sp, percent=100, unin = "km", unout = "km2")
 RA_2020_poly<-mcp(RA_2020.sp, percent=100, unin = "km", unout = "km2")
+
+library(rgeos)
+library(rworldmap)
+newmap<- getMap(resolution="low")
+
+
+pdf("Rubus_armeniacus_dispersal_map")
+plot(out_2020, col='dark green')
+plot(out_2010, add=T, col='yellow')
+plot(out_2000, add=T, col='blue')
+plot(newmap, add=T)
+points(IR_2020.sp, pch=16)
+scalebar(200, type="bar", below="kilometers", divs=4)
+
+
+
+
+
+
+
+
 
 
 
