@@ -165,11 +165,11 @@ newmap<- getMap(resolution="low")
 
 
 pdf("Rubus_armeniacus_dispersal_map")
-plot(out_2020, col='dark green')
-plot(out_2010, add=T, col='yellow')
-plot(out_2000, add=T, col='blue')
+plot(RA_2020_poly, col='dark green')
+plot(RA_2010_poly, add=T, col='yellow')
+plot(RA_1990_poly, add=T, col='blue')
 plot(newmap, add=T)
-points(IR_2020.sp, pch=16)
+points(RA_2020.sp, pch=16)
 scalebar(200, type="bar", below="kilometers", divs=4)
 
 
