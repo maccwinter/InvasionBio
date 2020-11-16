@@ -1,16 +1,15 @@
 #start ---- 
 
-library(raster)
-library(dismo)
+
+
 library(sp)
 library(ggmap)
 library(raster) 
-library(rworldmap)
 library(rgdal) 
 library(geosphere)
 library(dplyr)
 
-#Rubus armeniacus ------
+#Rubus armeniacus ------ DONE
 read.csv("Rubusarmeniacus1.csv")-> radata; 
 attach(radata);
 str(radata)
@@ -18,9 +17,9 @@ require(raster)
 require(rgdal)
 head(radata)
 
-#Tamarix ----- 
+#Tamarix ----- IP
 
-read.csv("RTamarix.csv")-> radata; 
+read.csv("Tamarixspp.csv")-> radata; 
 attach(radata);
 str(radata)
 require(raster)
@@ -80,12 +79,12 @@ head(radata)
 #------------------------------------------- Start for each 
 
 
-install.packages("rworldmap")
+
 library(rworldmap)
 newmap<- getMap(resolution="low")
 
 plot(newmap)
-points(locations, pch=16, cex=.5)
+
 
 
 
@@ -94,7 +93,6 @@ raloc <- subset(radata,select=c('year','lon','lat'))
 head(raloc)
 
 raloc. <- na.omit(raloc)
-
 
 
 RAloc <-subset(raloc., select=c('lon','lat'))
@@ -107,13 +105,15 @@ library(geosphere)
 
 radata$year
 radatai<-radata[order(radata$year),]
-head(radatai$year)
+
 
 rainitial<- subset(radatai, select = c('year', 'lon', 'lat'))
 
 head(rainitial)
 
-ra.i <- subset(radatai, radatai$year =='1920', select=c('lon', 'lat'))
+
+ra.i <- subset(radatai,radatai$year==1871, select=c('lon', 'lat'))
+
 
 
 RAinitial<-SpatialPoints(ra.i, proj4string=CRS("+proj=longlat +ellps=WGS84"))
@@ -124,7 +124,7 @@ RAinvasive<-cbind(raloc.,dist)
 
 head(RAinvasive)
 
-plot(RAinvasive$year, (RAinvasive$dist/1000), pch=16,main ='Rubus armeniacus invasion from origin', xlab="Year", ylab="Distance from Introduced population (km)")
+plot(RAinvasive$year, (RAinvasive$dist/1000), pch=16,main ='Tamarix Spread Since Introduction', xlab="Year", ylab="Distance from Introduced population (km)")
 
 # first graph done ----- 
 library(dplyr)
@@ -145,7 +145,7 @@ diffs<-mutate(culmmax2, D_delta = (((culmaxdist/1000) - lag(culmaxdist/1000))/(y
 diffs$D_delta
 
 diffs$dist/1000
-plot(diffs$year, diffs$D_delta, pch=16, xlab="Year", ylab="Velocity of Invasion (km/year)")
+plot(diffs$year, diffs$D_delta, pch=16,main ='Tamarix Invasion Velocity', xlab="Year", ylab="Velocity of Invasion (km/year)")
 
 #add a loess regression
 loessMod60 <- loess((culmmax$culmaxdist/1000) ~ culmmax$year, data=culmmax, span=0.6) 
@@ -154,6 +154,21 @@ lines(culmmax$year,smoothed60, col="blue", lwd=2)
 
 
 # got second graph ------ 
+
+#NOW, where and when is the furthest point from origin?
+
+furthest<- RAinvasive[desc(RAinvasive$dist),]
+top <-head(furthest, n=3)
+topyear <-subset(top, select ='year')
+topyear
+location.max.dist <- subset(top, select=c('lon','lat'))
+library(usmap)
+newmap<- getMap(resolution="low")
+
+??getMap
+
+plot(newmap,main ="Furthest Points from Introduction", xlab ='Years Recorded: 2020', ylab ='Tamarix spp')
+points(location.max.dist, col ='red', pch=16, cex=.5)
 
 ##Code for AVG Velocity, Max Velocity, Time to 
 
