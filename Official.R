@@ -259,12 +259,11 @@ plot((bio12/10), xlim=c(-160,-50), ylim=c(10,85))
 title(main = "Annual Precipitation (cm/year")
 
 
-plot((bio12/10), xlim=c(-160,-50), ylim=c(10,85))
 points(locations$lon,locations$lat, col ='green',pch=16, cex=0.25)
 points(t$lon, t$lat, col ='red',pch=16, cex=0.25)
 points(location.max.dist$lon, location.max.dist$lat, col ='black', pch=16, cex=0.25)
 points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=0.5)
-title(main = name, xlab = 'total precip (cm/year)')
+title(xlab = name)
 addMapLegendBoxes(x='bottomleft', title ='Location type' ,cex =0.35, pt.cex=1, colourVector = c('blue','red','black','green'), legendText =c ("original location",'total','furthest distance','post max spread velocity'))
 
 #max temperature ----
@@ -275,85 +274,39 @@ plot(bio5/10, xlim=c(-160,-50), ylim=c(10,85))
 points(locations$lon,locations$lat, col ='green',pch=16, cex=0.25)
 points(t$lon, t$lat, col ='red',pch=16, cex=0.25)
 points(location.max.dist$lon, location.max.dist$lat, col ='black', pch=16, cex=0.25)
-points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=0.25)
-title(main = name, xlab = 'max temp (C)')
+points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=0.50)
+title( xlab = name)
 addMapLegendBoxes(x='bottomleft', title ='Location type' ,cex =0.35, pt.cex=1, colourVector = c('blue','red','black','green'), legendText =c ("original location",'total','furthest distance','post max spread velocity'))
 
 
 #min temp ----
-plot((bio6/100), xlim=c(-160,-50), ylim=c(10,85))
+plot((bio6/10), xlim=c(-160,-50), ylim=c(10,85))
 title(main ="Min Temp (C)")
 
+plot((bio6/10), xlim=c(-160,-50), ylim=c(10,85))
 points(locations$lon,locations$lat, col ='green',pch=16, cex=0.25)
 points(t$lon, t$lat, col ='red',pch=16, cex=0.25)
 points(location.max.dist$lon, location.max.dist$lat, col ='black', pch=16, cex=0.25)
 points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=0.25)
-title(main = name, xlab = 'min temp (C)')
+title(xlab=name)
 addMapLegendBoxes(x='bottomleft', title ='Location type' ,cex =0.35, pt.cex=1, colourVector = c('blue','red','black','green'), legendText =c ("original location",'total','furthest distance','post max spread velocity'))
 
 
 #lowest precip month ----
-plot((bio14/100), xlim=c(-160,-50), ylim=c(10,85))
+plot((bio14/10), xlim=c(-160,-50), ylim=c(10,85))
 title(main ='Lowest Precipitation (cm/month)')
 
 points(locations$lon,locations$lat, col ='green',pch=16, cex=0.25)
 points(t$lon, t$lat, col ='red',pch=16, cex=0.25)
 points(location.max.dist$lon, location.max.dist$lat, col ='black', pch=16, cex=0.25)
 points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=0.25)
-title(main = name, xlab = 'lowest precip (cm/month)')
+title(xlab=name)
 addMapLegendBoxes(x='bottomleft', title ='Location type' ,cex =0.35, pt.cex=1, colourVector = c('blue','red','black','green'), legendText =c ("original location",'total','furthest distance','post max spread velocity'))
 
 #Is spread being contained? 
 
-furthest<- InvasiveRange_new[desc(InvasiveRange_new$dist),]
-top <-head(furthest, n=10)
-topyear <-subset(top, select ='year')
-topyear
-location.max.dist <- subset(top, select=c('lon','lat'))
-library(rworldmap)
-newmap <- getMap(resolution = 'low')
-
-#at furthest distance and original -------
-#bio5 = Max temperature of warmest month
-#bio6 = low temperature of coldest quarter
-#bio12 = Total (annual) precipitation
-#bio14 =precip driest motth
 
 
-
-# Old map codes (just in case)------
-
-plot((bio12/100), xlim=c(-160,-50), ylim=c(10,85))
-points(location.max.dist$lon, location.max.dist$lat, col ='dark red', pch=16, cex=3)
-points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=3)
-title(main = name, xlab = 'blue:original red:furthest', ylab = 'Total precipitation (cm)')
-plot(newmap, add=T)
-
-#max temperature ----
-plot(bio5, xlim=c(-160,-50), ylim=c(10,85))
-points(location.max.dist$lon, location.max.dist$lat, col ='red', pch=16, cex=3)
-title(main = name, xlab = 'blue:original red:furthest', ylab = 'max temp C')
-plot(newmap, add=T)
-
-#min temp ----
-plot((bio6/100), xlim=c(-160,-50), ylim=c(10,85))
-title(main ="Min Temp (C)")
-
-plot((bio6/100), xlim=c(-160,-50), ylim=c(10,85))
-points(location.max.dist$lon, location.max.dist$lat, col ='red', pch=16, cex=3)
-points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=3)
-title(main =name, xlab = 'blue:original red:furthest ', ylab = 'Min Temp C')
-plot(newmap, add=T)
-
-#lowest precip month ----
-plot((bio14/100), xlim=c(-160,-50), ylim=c(10,85))
-
-
-plot((bio14/100), xlim=c(-160,-50), ylim=c(10,85))
-points(location.max.dist$lon, location.max.dist$lat, col ='red', pch=16, cex=3)
-points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=3)
-title(main =name, xlab = 'blue:original red:furthest', ylab = 'Precipitation_lowest (cm/year)')
-plot(newmap, add=T)
 
 
 
