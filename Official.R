@@ -1,6 +1,6 @@
 #Official
 
-#Tamarix ------Done 
+#Tamarix ------
 library(dismo)
 Species <- gbif("Tamarix")
 SPUSA <- Species[Species$country=='United States',]
@@ -201,7 +201,7 @@ head(dist)
 InvasiveRange_new<-cbind(cidata,dist)
 
 #Lets plot it - what problem do you see here?
-plot(InvasiveRange_new$year, (InvasiveRange_new$dist/1000), pch=16,main ='R.armeniacus', xlab="Years since Introduction", ylab="Distance from Introduced population (km)")
+plot(InvasiveRange_new$year, (InvasiveRange_new$dist/1000), pch=16,main =name, xlab="Years since Introduction", ylab="Distance from Introduced population (km)")
 
 
 #get maximum distance from starting point
@@ -229,34 +229,41 @@ smoothed60 <- predict(loessMod60)
 lines(culmmax$year,smoothed60, col="blue", lwd=2)
 
 #max dist ----- 
+
 furthest<- InvasiveRange_new[desc(InvasiveRange_new$dist),]
 top <-head(furthest, n=10)
 topyear <-subset(top, select ='year')
 topyear
 location.max.dist <- subset(top, select=c('lon','lat'))
 
+diffs <-na.omit(diffs)
 #at point where speed slows.# ----- 
-Yearvelocity <-diffs[desc(diffs$D_delta),] 
-topvelocity <-head(Yearvelocity, n=1)
-topyearvelocity <-subset(topvelocity, select ='year')
-loc.velocity.slows <- subset(topvelocity[2,], select=c('lon','lat'))
+Ddelta <-diffs[order(diffs$D_delta),]
+Topv <-tail(Ddelta, n=5)
+topyearvelocity <-subset(Topv, select ='year')
+loc.velocity.slows <- subset(Topv, select=c('lon','lat'))
 #shall I add this to maps? 
 #I want to map points after max velocity 
-#maxvelocity: = 
-postmvelocity =subset(cidata2[cidata2$year>=topyearvelocity,], select =c('lon','lat','bio5','bio6','bio12','bio14'))
+head(cidata)
 
+postmvelocity =subset(cidata[cidata$year<=1979,], select =c('year','lon','lat'))
+t <-na.omit(postmvelocity)
+t
 #maps final-----------------------------------
 library(rworldmap)
 newmap <- getMap(resolution = 'low')
 name ="Tamarix.spp"
 
 # total precipitation-----
+plot((bio12/10), xlim=c(-160,-50), ylim=c(10,85))
+title(main = "Annual Precipitation (cm/year")
+
 
 plot((bio12/10), xlim=c(-160,-50), ylim=c(10,85))
-points(locations$lon,locations$lat, col ='red',pch=16, cex=0.25)
-points(postmvelocity$lon, postmvelocity$lat, col ='green',pch=16, cex=0.25)
+points(locations$lon,locations$lat, col ='green',pch=16, cex=0.25)
+points(t$lon, t$lat, col ='red',pch=16, cex=0.25)
 points(location.max.dist$lon, location.max.dist$lat, col ='black', pch=16, cex=0.25)
-points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=0.25)
+points(introyear[1,2], introyear[1,3], col ='blue', pch=16, cex=0.5)
 title(main = name, xlab = 'total precip (cm/year)')
 addMapLegendBoxes(x='bottomleft', title ='Location type' ,cex =0.35, pt.cex=1, colourVector = c('blue','red','black','green'), legendText =c ("original location",'total','furthest distance','post max spread velocity'))
 
