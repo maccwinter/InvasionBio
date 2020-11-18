@@ -304,7 +304,27 @@ title(xlab=name)
 addMapLegendBoxes(x='bottomleft', title ='Location type' ,cex =0.35, pt.cex=1, colourVector = c('blue','red','black','green'), legendText =c ("original location",'total','furthest distance','post max spread velocity'))
 
 #Is spread being contained? 
+library(tidyverse)
 
+head(cidata2)
+
+invasionphase <- function(x){
+  year<- x[,1]
+  
+  if(year >= 1979){ phase<- 'Post max v' }
+  else{phase <-'Pre max V'}
+  return(phase)
+}
+cidata2$phase <- NA
+for(i in 1:nrow(cidata2)){cidata2[i,]$phase <- invasionphase(x = cidata2[i,])}
+head(cidata2$phase)
+
+bioclim.tot <- cidata2 %>% group_by(phase) %>% 
+  summarise(avg.annual.precip = mean((bio12/10), na.rm=T), std.annual.precip = sd((bio12/10), na.rm = T),avg.max.temp = mean((bio5/10), na.rm=T), std.max.temp = sd((bio5/10), na.rm = T),
+            avg.min.temp = mean((bio6/10), na.rm=T), std.min.temp = sd((bio6/10), na.rm = T ),
+            avg.low.precip = mean((bio14/10), na.rm=T), std.low.precip = sd((bio14/10), na.rm = T))
+        
+tot.precip
 
 
 
