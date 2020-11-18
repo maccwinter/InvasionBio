@@ -323,10 +323,29 @@ bioclim.tot <- cidata2 %>% group_by(phase) %>%
   summarise(avg.annual.precip = mean((bio12/10), na.rm=T), std.annual.precip = sd((bio12/10), na.rm = T),avg.max.temp = mean((bio5/10), na.rm=T), std.max.temp = sd((bio5/10), na.rm = T),
             avg.min.temp = mean((bio6/10), na.rm=T), std.min.temp = sd((bio6/10), na.rm = T ),
             avg.low.precip = mean((bio14/10), na.rm=T), std.low.precip = sd((bio14/10), na.rm = T))
-        
-tot.precip
+
+cidatapre <-cidata2[cidata2$phase=='Pre max V',]
+cidatapst <-cidata2[cidata2$phase=='Post max v',]
+
+bioclim.tot  
+sig.avg.annual.precip = t.test(cidatapre$bio12,cidatapst$bio12)
+sig.avg.max.temp = t.test(cidatapre$bio5,cidatapst$bio5)
+sig.avg.min.temp= t.test(cidatapre$bio6,cidatapst$bio6) 
+sig.avg.low.precip = t.test(cidatapre$bio14,cidatapst$bio14)
+sigs <-(c(sig.avg.annual.precip, sig.avg.max.temp, sig.avg.min.temp, sig.avg.low.precip))
+sig.avg.annual.precip
+sig.avg.max.temp
+sig.avg.min.temp
+sig.avg.low.precip
+  
+
+signames <-c('annual precipitation','max temp', 'min temp', 'dry month precip')
+sig.bio <-cbind(signames,sigs)
 
 
+
+write.csv(bioclim.tot,"Tamarix_climdata.csv")
+write.csv(sig.bio,'Tamarix_stats.csv')
 
 
 
