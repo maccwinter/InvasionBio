@@ -332,20 +332,16 @@ sig.avg.annual.precip = t.test(cidatapre$bio12,cidatapst$bio12)
 sig.avg.max.temp = t.test(cidatapre$bio5,cidatapst$bio5)
 sig.avg.min.temp= t.test(cidatapre$bio6,cidatapst$bio6) 
 sig.avg.low.precip = t.test(cidatapre$bio14,cidatapst$bio14)
-sigs <-(c(sig.avg.annual.precip, sig.avg.max.temp, sig.avg.min.temp, sig.avg.low.precip))
-sig.avg.annual.precip
-sig.avg.max.temp
-sig.avg.min.temp
-sig.avg.low.precip
-  
+sigs <-(c(sig.avg.annual.precip$p.value, sig.avg.max.temp$p.value,sig.avg.min.temp$p.value, sig.avg.low.precip$p.value))
+
 
 signames <-c('annual precipitation','max temp', 'min temp', 'dry month precip')
 sig.bio <-cbind(signames,sigs)
+sig.bio
 
-
-
-write.csv(bioclim.tot,"Tamarix_climdata.csv")
-write.csv(sig.bio,'Tamarix_stats.csv')
+head(bioclim.tot)
+write.csv(bioclim.tot,"Tamarixspp_climdata.csv")
+write.csv(sig.bio,'Tamarixspp_stats.csv')
 
 
 
